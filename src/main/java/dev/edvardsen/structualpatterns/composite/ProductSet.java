@@ -30,15 +30,7 @@ public class ProductSet extends WebshopItem {
 
   @Override
   public double getPrice() {
-    var it = this.getIterator();
-
-    double price = 0;
-    while (it.hasNext()) {
-      var item = it.next();
-      price += item.getPrice() * (1 - item.getDiscount());
-    }
-
-    return price;
+    return this.getOriginalPrice() * (1 - this.getDiscount());
   }
 
   @Override
