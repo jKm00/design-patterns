@@ -17,11 +17,11 @@ public class ProductSet extends WebshopItem {
 
   @Override
   public double getOriginalPrice() {
-    Iterator<WebshopItem> it = this.getIterator();
+    var it = this.getIterator();
 
     double originalPrice = 0;
     while (it.hasNext()) {
-      WebshopItem item = it.next();
+      var item = it.next();
       originalPrice += item.getPrice();
     }
 
@@ -30,11 +30,11 @@ public class ProductSet extends WebshopItem {
 
   @Override
   public double getPrice() {
-    Iterator<WebshopItem> it = this.getIterator();
+    var it = this.getIterator();
 
     double price = 0;
     while (it.hasNext()) {
-      WebshopItem item = it.next();
+      var item = it.next();
       price += item.getPrice() * (1 - item.getDiscount());
     }
 
