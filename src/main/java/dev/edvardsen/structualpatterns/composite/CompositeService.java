@@ -1,4 +1,4 @@
-package no.edvardsen.structualPatterns.composite;
+package dev.edvardsen.structualpatterns.composite;
 
 /**
  * Entry point for the composite design pattern

@@ -1,4 +1,4 @@
-package no.edvardsen.structualPatterns.composite;
+package dev.edvardsen.structualpatterns.composite;
 
 /**
  * The leaf of the composite design pattern. Represents a single standalone

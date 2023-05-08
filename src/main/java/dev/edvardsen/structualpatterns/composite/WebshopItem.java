@@ -1,4 +1,4 @@
-package no.edvardsen.structualPatterns.composite;
+package dev.edvardsen.structualpatterns.composite;
 
 import java.util.Iterator;
 import java.util.Set;

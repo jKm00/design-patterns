@@ -1,6 +1,6 @@
-package no.edvardsen;
+package dev.edvardsen;
 
-import no.edvardsen.structualPatterns.composite.CompositeService;
+import dev.edvardsen.structualpatterns.composite.CompositeService;
 
 /**
  * Hello world!
